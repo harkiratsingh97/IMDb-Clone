@@ -1,0 +1,49 @@
+#header {
+	background-color: rgba(0, 0, 0, 0.904);
+	padding: 12px;
+	vertical-align: middle;
+}
+
+#header div {
+	align-items: center;
+	display: flex;
+}
+
+.input-container {
+    background-color: white;
+	width: 100%;
+    border-radius: 4px;
+
+    min-width: 500px;
+    /* padding-left: 10%;? */
+}
+
+.input-container:focus{
+    border: 1px;
+    background-color: blue;
+}
+
+#a {
+    margin-left: 3%;
+	width: 91%;
+    
+	max-width: 500px;
+	border: 0px;
+    border-radius: 4px;
+	height: 35px;
+	box-shadow: none;
+    outline: none;
+}
+
+/* #searchDropdown {
+	background-color: aqua;
+	height: 40px;
+	display: none;
+} */
+
+#searchDropdown a{
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: 500;
+}
