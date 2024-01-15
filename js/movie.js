@@ -7,6 +7,8 @@
 			return data.json();
 		})
 		.then((data) => {
+			let preload = document.getElementById("preload");
+
 			let name = document.getElementById("name");
 			let year = document.getElementById("year");
 			let rated = document.getElementById("rated");
@@ -38,12 +40,14 @@
 
 				genreDiv.appendChild(newGenre);
 			}
-			plotDiv.innerText =   data.Plot;
+			plotDiv.innerText = data.Plot;
 			rating.innerText = data.imdbRating;
 			ratingVotes.innerText = data.imdbVotes;
 			director.innerText = data.Director;
 			writers.innerText = data.Writer;
 			stars.innerText = data.Actors;
-			console.log(data);
+
+			preload.style.display = "none";
+			// console.log(data);
 		});
 })();

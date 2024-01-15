@@ -1,3 +1,21 @@
+#preload {
+	position: absolute;
+	background-image: linear-gradient(
+		to right,
+		rgba(0, 0, 0, 0.938),
+		black,
+		rgba(0, 0, 0, 0.932)
+	);
+	height: 100%;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#preload-img {
+	height: 80px;
+}
 
 input {
 	color: black;
@@ -5,8 +23,8 @@ input {
 
 #movie-details {
 	color: rgba(255, 255, 255, 0.699);
-	
-    background-image: linear-gradient(
+
+	background-image: linear-gradient(
 		to right,
 		rgba(0, 0, 0, 0.938),
 		black,

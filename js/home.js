@@ -21,7 +21,7 @@ search.addEventListener("keyup", (data) => {
 			dropdownElement.innerText = data.Title
 			searchDropdown.innerText=""
 			searchDropdown.appendChild(dropdownElement);
-			console.log(data);
+			// console.log(data);
 		});
 });
 
