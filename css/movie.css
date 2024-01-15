@@ -1,0 +1,99 @@
+* {
+	color: rgba(255, 255, 255, 0.699);
+}
+
+input {
+	color: black;
+}
+
+#movie-details {
+	background-image: linear-gradient(
+		to right,
+		rgba(0, 0, 0, 0.938),
+		black,
+		rgba(0, 0, 0, 0.932)
+	);
+
+	/* background-color: rgba(0, 0, 0, 0.904); */
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+}
+
+#name {
+	font-size: 30px;
+	font-weight: 700;
+	width: 100vw;
+	padding-left: 20px;
+	padding-top: 30px;
+}
+
+#movie-img-div {
+	display: flex;
+	/* margin-left: 20px; */
+	/* flex-direction: column; */
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+#year-rated-length {
+	width: fit-content;
+	display: flex;
+	/* padding-left: 120px; */
+	/* align-items: center; */
+}
+
+#year,
+#rated,
+#length {
+	margin: 5px;
+}
+
+#movie-img-div img {
+	padding-left: 30px;
+	/* width: 400px; */
+	width: 100%;
+}
+
+#movie-specs {
+	padding-left: 60px;
+	padding-top: 40px;
+	width: 60%;
+}
+
+#movie-specs div {
+	margin-bottom: 10px;
+	font-size: 1.2rem;
+}
+#genre {
+	display: flex;
+}
+
+.genres {
+	font-size: 15px;
+	color: white;
+	margin: 3px 10px 3px 0px;
+	padding: 2px 6px;
+	border: 1px solid rgba(255, 255, 255, 0.829);
+	border-radius: 30px;
+}
+#plot {
+	/* color: white; */
+}
+#rating {
+	/* color: white; */
+}
+#ratingNumber {
+	color: white;
+}
+
+#ratingVotes {
+}
+#director {
+}
+
+#writers {
+}
+
+#stars {
+}

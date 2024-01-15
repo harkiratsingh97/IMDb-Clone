@@ -15,6 +15,8 @@
 			referrerpolicy="no-referrer"
 		/>
 		<link rel="stylesheet" href="./css/home.css" />
+		<link rel="stylesheet" href="./css/movie.css" />
+
 		<title>IMDb</title>
 	</head>
 	<body>
@@ -80,9 +82,45 @@
 			<!-- <div class="col-3"></div> -->
 		</div>
 
-		<div class="movie-details">
-			<div class="movie-img"></div>
-			<div class="movie-specs"><h3></h3></div>
+		<div id="movie-details">
+			<div id="name"></div>
+
+			<div id="movie-img-div">
+				<div id="year-rated-length">
+					<div id="year"></div>
+					.
+					<div id="rated"></div>
+					.
+					<div id="length"></div>
+				</div>
+				<img id="movie-img" src=".." />
+			</div>
+			<div id="movie-specs">
+				<div id="genre">
+					<!-- <div class="genres">${data.Genre}</div>
+                        <div class="genres">Adventure</div> -->
+				</div>
+				<div id="rating">
+					
+					<span id="ratingNumber"></span>
+					/10
+					<i class="fa fa-star" aria-hidden="true" style="color: #ffd43b"> </i>
+
+					<div><span id="ratingVotes"></span></div>
+				</div>
+
+				<!-- <span>Plot : </span> -->
+				<div id="plot"></div>
+
+				<div>Director: <span id="director"></span></div>
+
+				<div>Writers: <span id="writers"></span></div>
+
+				<div>
+					Stars:
+					<span id="stars"></span>
+				</div>
+			</div>
 		</div>
 	</body>
 	<script type="" src="./js/home.js"></script>
