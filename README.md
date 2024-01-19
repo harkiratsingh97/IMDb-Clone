@@ -10,7 +10,7 @@ An IMDb clone created with HTML, CSS, and JavaScript, powered by the OMDB API.
 
 ## Demo
 
-[View the IMDb Clone Demo]((https://imdb-clone-9z5n.onrender.com/home.html)) 
+(<a href="https://imdb-clone-9z5n.onrender.com/home.html">View the IMDb Clone Demo</a>) 
 
 ## Technologies Used
 
