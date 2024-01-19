@@ -1,3 +1,4 @@
+//It is in IFEE that will be excuted whenever we got to the movie page and display all the details of the selected Movie
 (function () {
 	const urlParams = new URLSearchParams(window.location.search);
 	const imdbId = urlParams.get("imdbID");
@@ -7,8 +8,9 @@
 			return data.json();
 		})
 		.then((data) => {
+            //It is a loader which is removed when the promise is fullfilled of fetch API
 			let preload = document.getElementById("preload");
-
+            
 			let name = document.getElementById("name");
 			let year = document.getElementById("year");
 			let rated = document.getElementById("rated");
@@ -48,6 +50,6 @@
 			stars.innerText = data.Actors;
 
 			preload.style.display = "none";
-			// console.log(data);
+			
 		});
 })();

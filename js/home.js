@@ -2,6 +2,8 @@ let search = document.getElementById("a");
 let searchMovie = "";
 let searchDropdown = document.getElementById("searchDropdown");
 let dropdownElement = document.createElement("a");
+
+//Event listener for keyboard input and making an API call to get the movie name from Title 
 search.addEventListener("keyup", (data) => {
 	// search.value.replace(" ", "_");
 	// console.log(search.value);
@@ -25,6 +27,7 @@ search.addEventListener("keyup", (data) => {
 		});
 });
 
+//Removing the dropdown of movie suggestion if clicked somewhere else on the page
 document.addEventListener("click", (data) => {
 	if (!data.target.classList.contains("dont-close-dropdown"))
 		searchDropdown.style.visibility = "hidden";
