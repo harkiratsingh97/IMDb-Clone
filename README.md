@@ -26,4 +26,5 @@ An IMDb clone created with HTML, CSS, and JavaScript, powered by the OMDB API.
 
 1. Clone the repository:
 
-   git clone https://github.com/your-username/imdb-clone.git
+   git clone https://github.com/harkiratsingh97/IMDb-Clone.git
+   
