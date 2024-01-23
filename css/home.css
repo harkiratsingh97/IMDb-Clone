@@ -38,6 +38,8 @@
 #searchDropdown {
 	position: absolute;
 	/* height: 35px; */
+	display: flex;
+	flex-direction: column;
 	width: 500px;
 	top: 50px;
 	background-color: rgba(0, 0, 0, 0.904);
@@ -54,4 +56,6 @@
     text-decoration: none;
     font-size: 17px;
     font-weight: 500;
+	width: 100%;
+	margin: 5px;
 }
